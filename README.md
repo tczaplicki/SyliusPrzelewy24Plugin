@@ -74,8 +74,8 @@ $ bin/console doctrine:database:create -e test
 $ bin/console doctrine:schema:create -e test
 $ bin/console server:run 127.0.0.1:8080 -e test
 $ open http://localhost:8080
-$ bin/behat
-$ bin/phpspec run
+$ vendor/bin/behat
+$ vendor/bin/phpspec run
 ```
 
 ## Contribution
